@@ -1,0 +1,26 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .game-container {
+    text-align: center;
+  }
+  
+  canvas {
+    border: 5px solid black; /* Membuat pembatas tebal di sekitar area canvas */
+    background-color: #ffffff;
+  }
+  
+  #score, #level {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
